@@ -1,0 +1,9 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: pub-service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.133.129.12:8848
